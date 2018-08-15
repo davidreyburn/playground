@@ -4,9 +4,9 @@
   "description": "test ground for new web technologies and art experiments",
   "main": "index.html",
   "dependencies": {
-    "gulp-webserver": "^0.9.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
