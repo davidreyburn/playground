@@ -10,7 +10,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);  // Size must be the first statement
 
-  stroke(palettes[1].colors[0]);     // Set line drawing color to white
+  stroke(palettes[0].colors[0]);     // Set line drawing color to white
   frameRate(30);
 }
 // The statements in draw() are executed until the
@@ -18,7 +18,7 @@ function setup() {
 // sequence and after the last line is read, the first
 // line is executed again.
 function draw() {
-  background(palettes[1].colors[1]);   // Set the background to black
+  background(palettes[0].colors[1]);   // Set the background to black
 
   y = y - 1;
   if (y < 0) {
