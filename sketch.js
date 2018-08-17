@@ -36,7 +36,7 @@ function draw() {
   }
 }
 
-function mousePressed() {
+function mouseReleased() {
     if (colorSwitch == Object.keys(palettes).length-1) {
       colorSwitch = 0;
     } else colorSwitch++;
