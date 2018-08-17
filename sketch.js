@@ -21,8 +21,10 @@ function draw() {
   background(palettes[1].colors[3]);   // Set the background to black
 
   y = y - 1;
-  if (y < 0) {
-    y = (height*.4);
+  if (y < height*.4) {
+    y = 0;
   }
-  line(0, y, width, y);
+  for (i = 0, i < 0, i++) {
+    line(0, (i*5)+y, width, (i*5)+y);
+  }
 }
