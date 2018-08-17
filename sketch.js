@@ -22,7 +22,7 @@ function draw() {
 
   y = y - 1;
   if (y < 0) {
-    y = height;
+    y = (height*.4);
   }
   line(0, y, width, y);
 }
