@@ -1,30 +1,48 @@
-var y = 100;
+var colorSwitch = 0;
+var lines = 0;
+var paletteCount = 0;
 
 function preload() {
-  data = '4-color-palettes.json';
-  palettes = loadJSON(data);
+  palettes = loadJSON('4-color-palettes.json');
 }
 
 // The statements in the setup() function
 // execute once when the program begins
 function setup() {
   createCanvas(windowWidth, windowHeight);  // Size must be the first statement
-
-  stroke(palettes[1].colors[0]);     // Set line drawing color to white
   frameRate(30);
+  lines = [height-1, height-36, height-71, height-106, height-141, height-176, height-211];
 }
 // The statements in draw() are executed until the
 // program is stopped. Each statement is executed in
 // sequence and after the last line is read, the first
 // line is executed again.
 function draw() {
-  background(palettes[1].colors[3]);   // Set the background to black
+  background(palettes[colorSwitch].colors[1]);   // Set the background to black
+  fill(palettes[colorSwitch].colors[3]);
+  noStroke();
+  ellipse(width*.85, height*.2, height*.4, height*.4);
 
-  y = y - 1;
-  if (y < height*.4) {
-    y = 0;
+  for (i=0;i<7;i++) {
+    lines[i]++;
+    if (lines[i] > height) {
+      lines[i] = height*.71;
+    }
   }
-  for (i = 0; i < 0; i++) {
-    line(0, (i*5)+y, width, (i*5)+y);
+
+  stroke(palettes[colorSwitch].colors[0]);
+  for (i = 0; i < 7; i++) {
+    line(0, lines[i], width, lines[i]);
   }
+}
+
+function keyTyped() {
+  if (key === 'a') {
+    if (colorSwitch == Object.keys(palettes).length-1) {
+      colorSwitch = 0;
+    } else colorSwitch++;
+  }
+
+  // uncomment to prevent any default behavior
+  // return false;
 }
