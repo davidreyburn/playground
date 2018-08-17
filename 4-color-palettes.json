@@ -1,7 +1,7 @@
 [
   {
-    "Name": "SGB 1-A",
-    "Colors": [
+    "name": "SGB 1-A",
+    "colors": [
       "#F8E8C8",
       "#301850",
       "#D89048",
@@ -10,8 +10,8 @@
   },
 
   {
-    "Name": "SGB 2-A",
-    "Colors": [
+    "name": "SGB 2-A",
+    "colors": [
       "#F0C8A0",
       "#000000",
       "#C08848",
