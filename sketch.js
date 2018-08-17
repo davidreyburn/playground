@@ -36,13 +36,8 @@ function draw() {
   }
 }
 
-function keyTyped() {
-  if (key === 'a') {
+function mousePressed() {
     if (colorSwitch == Object.keys(palettes).length-1) {
       colorSwitch = 0;
     } else colorSwitch++;
   }
-
-  // uncomment to prevent any default behavior
-  // return false;
-}
