@@ -24,7 +24,7 @@ function draw() {
   if (y < height*.4) {
     y = 0;
   }
-  for (i = 0, i < 0, i++) {
+  for (i = 0; i < 0; i++) {
     line(0, (i*5)+y, width, (i*5)+y);
   }
 }
