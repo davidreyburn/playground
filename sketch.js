@@ -1,10 +1,16 @@
 var y = 100;
 
+function preload() {
+  data = '4-color-palettes.json';
+  palettes = loadJSON(data);
+}
+
 // The statements in the setup() function
 // execute once when the program begins
 function setup() {
   createCanvas(windowWidth, windowHeight);  // Size must be the first statement
-  stroke(255);     // Set line drawing color to white
+
+  stroke(palettes[1].colors[0]);     // Set line drawing color to white
   frameRate(30);
 }
 // The statements in draw() are executed until the
@@ -12,7 +18,7 @@ function setup() {
 // sequence and after the last line is read, the first
 // line is executed again.
 function draw() {
-  background(0);   // Set the background to black
+  background(palettes[1].colors[1]);   // Set the background to black
 
   y = y - 1;
   if (y < 0) {
