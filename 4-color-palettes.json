@@ -327,5 +327,105 @@
       "#F8F868",
       "#B0B0F8"
     ]
+  },
+
+  {
+    "name": "Pastel Glacier",
+    "colors": [
+      "#F6F6F6",
+      "#295E6A",
+      "#C2FAF1",
+      "#DFEFF0"
+    ]
+  },
+
+  {
+    "name": "Floral Shoppe",
+    "colors": [
+      "#f7f7f7",
+      "#3b0944",
+      "#5f1854",
+      "#1abb9c"
+    ]
+  },
+
+  {
+    "name": "Soft Nature",
+    "colors": [
+      "#f2feca",
+      "#4a3333",
+      "#98d083",
+      "#bcfcc9"
+    ]
+  },
+
+  {
+    "name": "Desert Cove",
+    "colors": [
+      "#faffb8",
+      "#226b80",
+      "#c5f0a4",
+      "#35b0ab"
+    ]
+  },
+
+  {
+    "name": "Arizona Sunset",
+    "colors": [
+      "#f5f0c4",
+      "#c6c5b3",
+      "#c45d3e",
+      "#ee7c4b"
+    ]
+  },
+
+  {
+    "name": "Creamy Sunset",
+    "colors": [
+      "#f8b195",
+      "#6c567b",
+      "#c06c84",
+      "#f67280"
+    ]
+  },
+
+  {
+    "name": "Wintergreen",
+    "colors": [
+      "#ecfffb",
+      "#1e6262",
+      "#2d767f",
+      "#b4f1f1"
+    ]
+  },
+
+  {
+    "name": "Muted Night",
+    "colors": [
+      "#ffe2ad",
+      "#36413d",
+      "#4c657e",
+      "#f29696"
+    ]
+  },
+  
+  {
+    "name": "Vibrant Day",
+    "colors": [
+      "#f0d879",
+      "#e6e6e6",
+      "#248888",
+      "#e7475e"
+    ]
+  },
+  
+  {
+    "name": "Peridot",
+    "colors": [
+      "#fbffa3",
+      "#083836",
+      "#66d37e",
+      "#c6e872"
+    ]
   }
 ]
