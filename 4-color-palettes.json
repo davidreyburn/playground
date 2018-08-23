@@ -320,16 +320,6 @@
   },
 
   {
-    "name": "SGB-pastel",
-    "colors": [
-      "#F89090",
-      "#68F868",
-      "#F8F868",
-      "#B0B0F8"
-    ]
-  },
-
-  {
     "name": "Pastel Glacier",
     "colors": [
       "#F6F6F6",
@@ -408,7 +398,7 @@
       "#f29696"
     ]
   },
-  
+
   {
     "name": "Vibrant Day",
     "colors": [
@@ -418,7 +408,7 @@
       "#e7475e"
     ]
   },
-  
+
   {
     "name": "Peridot",
     "colors": [
@@ -426,6 +416,26 @@
       "#083836",
       "#66d37e",
       "#c6e872"
+    ]
+  },
+
+  {
+    "name": "Vivid Sunset",
+    "colors": [
+      "#ff5733",
+      "#581845",
+      "#900c3f",
+      "#c70039"
+    ]
+  },
+
+  {
+    "name": "Dusty Prairie",
+    "colors": [
+      "#d5eeff",
+      "#5c3c10",
+      "#a2792f",
+      "#f7ca44"
     ]
   }
 ]
